@@ -8,7 +8,7 @@
 }
 
 body {
-    background: url(resources/background.jpg) no-repeat;
+    background: #1F3543;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -116,12 +116,12 @@ header {
 }
 
 .search-input::placeholder {
-  color: #25455e;
+  color: #fff;
   text-align: center;
 }
 
 .search-form .icon {
-  color: #25455e;
+  color: #346183;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +244,7 @@ header {
 
 .form-box h2 {
   font-size: 2em;
-  color: #162938;
+  color: #FFF;
   text-align: center;
 }
 
@@ -262,7 +262,7 @@ header {
   left: 5px;
   transform: translateY(-50%);
   font-size: 1em;
-  color: #162938;
+  color: #b6b4b4d2;
   font-weight: 500;
   pointer-events: none;
   transition: .3s;
@@ -280,7 +280,7 @@ header {
   border: none;
   outline: none;
   font-size: 1em;
-  color: #162938;
+  color: #b6b4b4d2;
   font-weight: 600;
   padding: 0 35px 0 5px;
 }
@@ -289,13 +289,13 @@ header {
   position: absolute;
   right: 8px;
   font-size: 1.2em;
-  color: #162938;
+  color: #b6b4b4d2;
   line-height: 57px;
 }
 
 .remember-forgot {
   font: .9em;
-  color: #162938;
+  color: #b6b4b4d2;
   font-weight: 500;
   margin: -15px 0 15px;
   display: flex;
@@ -303,12 +303,12 @@ header {
 }
 
 .remember-forgot label input {
-  accent-color: #162938;
+  accent-color: #b6b4b4d2;
   margin-right: 3px;
 }
 
 .remember-forgot a {
-  color: #162938;
+  color: #b6b4b4d2;
   text-decoration: none;
 }
 
@@ -337,14 +337,14 @@ header {
 
 .login-register {
   font-size: .9em;
-  color: #162938;
+  color: #b6b4b4d2;
   text-align: center;
   font-weight: 500;
   margin: 25px 0 10px;
 }
 
 .login-register p a {
-  color: #162938;
+  color: #b6b4b4d2;
   text-decoration: none;
   font-weight: 600;
 }
