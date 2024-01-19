@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="home.html"><h2 class="logo"><ion-icon name="globe-outline"></ion-icon></h2></a>
+    <nav class="navigation">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contacts.html">Contact</a>
+      <a href="#" class="search-popup"><ion-icon name="search-outline"></ion-icon></a>
+      <a href="#" class="login-popup"><ion-icon name="person-outline"></ion-icon></a>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+    
+    <div class="form-box login">
+      <h2>Sign in</h2>
+      <form action="#">
+      <div class="input-box">
+        <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+        <input type="email" required>
+        <label>Email</label>
+        </div>
+      <div class="input-box">
+        <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+        <input type="password" required>
+        <label>Password</label>
+      </div>
+      <div class="remember-forgot">
+        <label><input type="checkbox">Remember me</label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" class="btn">Login</button>
+      <div class="login-register">
+        <p>Don't have an account? <a href="#" class="signup-link">Sign up</a></p>
+      </div>
+    </div>
+
+    <div class="form-box signup">
+      <h2>Sign up</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+          <input type="text" required>
+          <label>Username</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label>Password</label>
+        </div>
+        <div class="remember-forgot">
+          <label><input type="checkbox">I agree to the terms & conditions</label>
+        </div>
+        <button type="submit" class="btn">Sign up</button>
+        <div class="login-register">
+          <p>Already have an account? <a href="#" class="signin-link">Sign in</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<div class="search">
+  <span class="search-close"><ion-icon name="close-outline"></ion-icon></span>
+
+  <form action="" class="search-form">
+      <span class="icon"><ion-icon name="search-outline"></ion-icon></span>
+      <input type="search" placeholder="What are you looking for?" class="search-input">
+  </form>
+</div>
+
+  <script src="script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
